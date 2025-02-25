@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>CV Muhamad Sugeng Cahyono</title>
+  <title>Muhamad Sugeng Cahyono</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/letter-s.png" rel="icon">
+  <link href="assets/img/letter-s.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -27,13 +27,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Personal
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Updated: Mar 17 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -65,11 +58,49 @@
         from { color: #ffffff; } /* Warna awal */
         to { color: #000000; } /* Warna yang berubah */
     }
+
+    .portfolio-item1 {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .portfolio-text1 {
+            flex: 1;
+            padding-right: 20px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+        }
+        .portfolio-text1 h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: black;
+        }
+        .portfolio-text1 p {
+            font-size: 16px;
+            color: black;
+        }
+
+        .portfolio-image1 {
+            flex: 1;
+            text-align: right;
+        }
+        .portfolio-image1 img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        
 </style>
 
 <script>
     // Daftar posisi yang akan digunakan
-    var posisi = ['Mobile Developer', 'Sistem Analis', 'Project Manager'];
+    var posisi = ['Mobile Developer', 'Front End Developer', 'Project Manager', 'Data Analis'];
 
     // Mendapatkan elemen span
     var spanElement = document.getElementById('posisi');
@@ -90,20 +121,21 @@
         <ul>
           <li><a class="nav-link active" href="#header">Beranda</a></li>
           <li><a class="nav-link" href="#about">Tentang Saya</a></li>
-          <li><a class="nav-link" href="#resume">Ringkasan</a></li>
-          <li><a class="nav-link" href="#services">Sertifikat</a></li>
+          <li><a class="nav-link" href="#resume">Ringkasan & Sertifikat</a></li>
+          <!-- <li><a class="nav-link" href="#services">Sertifikat</a></li> -->
           <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link" href="#contact">Kontak</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
+      <!-- .navbar -->
 
       <div class="social-links">
         <a href="https://github.com/sugengcahyono" class="github"><i class="bi bi-github"></i></a>
-        <a href="https://t.me/Sugengchyono" class="telegram"><i class="bi bi-telegram"></i></a>
+        <a href="https://wa.me/6285812455631" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
         <a href="https://www.instagram.com/sugeng_chyono/?hl=en" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/muhamad-sugeng-cahyono-54396b221/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        <a href="assets/sertifikat/CV_MuhamadSugengCahyono2.pdf" class="cv"><i></i> CV</a>
+        <a href="https://www.linkedin.com/in/muhamad-sugeng-cahyono/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="assets/sertifikat/CV_MuhamadSugengCahyono_Sem6.pdf" class="cv"><i></i> CV</a>
     </div>
     
     
@@ -128,227 +160,36 @@
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Mahasiswa</h3>
-          <!-- <p class="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
-          </p> -->
+
           <div class="row">
             <div class="col-lg-6">
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <strong>Tanggal Lahir:</strong> <span>06 September 2003</span></li>
-                <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li> -->
                 <li><i class="bi bi-chevron-right"></i> <strong>No. Handphone:</strong> <span>085812455631</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Alamat:</strong> <span>Kediri, Jawa Timur</span></li>
               </ul>
             </div>
             <div class="col-lg-6">
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Umur:</strong> <span>20</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Umur:</strong> <span>21</span></li>
                 <!-- <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li> -->
                 <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>muhamadsugengcahyono@gmail.com</span></li>
                 <!-- <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li> -->
               </ul>
             </div>
           </div>
-          <p>
-            Saya Seorang mahasiswa Teknik Informatika di Politeknik Negeri Jember, bergabung pada 2022, saya memiliki pengalaman dalam memimpin atau berperan sebagai koordinator dalam proyek kelompok. Saya sangat berkomitmen untuk terus membangun kemampuan kepemimpinan saya melalui pengembangan diri dan pengalaman praktis yang saya dapatkan. Terampil dalam berbagai aspek ilmu komputer termasuk Microsoft Office, maintenance komputer dan printer, pengembangan aplikasi mobile Android, serta desain UI/UX. Saya telah memperoleh sertifikasi dari pelatihan dan menyelesaikan beberapa proyek, seperti Dicoding, Aplikasi Unjuk untuk Pendataan UMKM di Kabupaten Nganjuk.  </p>
+          <p style="text-align: justify;">
+            Saya Seorang mahasiswa semester 6 program studi Teknik Informatika di Politeknik Negeri Jember, saya memiliki
+            pengalaman dalam memimpin atau berperan sebagai koordinator dalam proyek kelompok. Saya sangat berkomitmen untuk
+            terus membangun kemampuan kepemimpinan saya melalui pengembangan diri dan pengalaman praktis yang saya dapatkan.
+            Terampil dalam berbagai aspek ilmu komputer termasuk Microsoft Office, maintenance komputer dan printer. Saya sangat
+            berminat dalam pengembangan aplikasi mobile android, pengembangan website, serta desain UI/UX. Saya sangat bersemangat
+            untuk terus berkembang dan berkolaborasi dalam berbagai proyek yang akan datang.
+          </p>
         </div>
       </div>
 
     </div><!-- End About Me -->
-
-    <!-- ======= Counts ======= -->
-    <!-- <div class="counts container">
-
-      <div class="row">
-
-        <div class="col-lg-3 col-md-6">
-          <div class="count-box">
-            <i class="bi bi-emoji-smile"></i>
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Happy Clients</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-          <div class="count-box">
-            <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-headset"></i>
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-award"></i>
-            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Awards</p>
-          </div>
-        </div>
-
-      </div> -->
-
-    <!-- </div> -->
-    <!-- End Counts -->
-
-    <!-- ======= Skills  ======= -->
-    <!-- <div class="skills container">
-
-      <div class="section-title">
-        <h2>Skills</h2>
-      </div>
-
-      <div class="row skills-content">
-
-        <div class="col-lg-6">
-
-          <div class="progress">
-            <span class="skill">HTML <i class="val">100%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">CSS <i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">JavaScript <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-lg-6">
-
-          <div class="progress">
-            <span class="skill">PHP <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">WordPress/CMS <i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Photoshop <i class="val">55%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div> -->
-    <!-- End Skills -->
-
-    <!-- ======= Interests ======= -->
-    <!-- <div class="interests container">
-
-      <div class="section-title">
-        <h2>Interests</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <i class="ri-store-line" style="color: #ffbb2c;"></i>
-            <h3>Lorem Ipsum</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-            <h3>Dolor Sitema</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-            <h3>Sed perspiciatis</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-            <h3>Magni Dolores</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-database-2-line" style="color: #47aeff;"></i>
-            <h3>Nemo Enim</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-            <h3>Eiusmod Tempor</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-            <h3>Midela Teren</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-            <h3>Pira Neve</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-anchor-line" style="color: #b2904f;"></i>
-            <h3>Dirada Pack</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-disc-line" style="color: #b20969;"></i>
-            <h3>Moton Ideal</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-base-station-line" style="color: #ff5828;"></i>
-            <h3>Verdo Park</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-            <h3>Flavor Nivelanda</h3>
-          </div>
-        </div>
-      </div>
-
-    </div> -->
-    <!-- End Interests -->
-
-    
 
   </section><!-- End About Section -->
 
@@ -363,47 +204,163 @@
 
       <div class="row">
         <div class="col-lg-6">
-          
 
           <h3 class="resume-title">Pendidikan</h3>
-          <div class="resume-item">
-            <h4>SMKN 1 Grogol Kediri </h4>
-            <h5>2019 - 2022</h5>
-            <p><em>Teknik Komputer dan Jaringan</em></p>
-            <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
-          </div>
+          
           <div class="resume-item">
             <h4>Politeknik Negeri Jember</h4>
             <h5>2022 - Sekarang</h5>
-            <p><em>Teknik Informatika</em></p>
-            <!-- <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p> -->
+            <p>Teknik Informatika</p>
           </div>
 
+          <div class="resume-item">
+            <h4>SMKN 1 Grogol Kediri </h4>
+            <h5>2019 - 2022</h5>
+            <p>Teknik Komputer dan Jaringan</p>
+          </div>
+          
+
           <h3 class="resume-title">Lisensi dan Sertifikasi</h3>
+
+          <!-- Dicoding -->
           <div class="resume-item">
-            <h4>Belajar Dasar Structured Query Language (SQL)</h4>
-            <h5>2024 - 2027</h5>
-            <p><em>Dicoding</em></p>
-            <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
+            <h4><a href="https://drive.google.com/drive/folders/1ndVhueCKiToyr-pao2J2y_X0DNSmYbAN?usp=sharing" target="_blank">Dicoding Indonesia</a></h4>
+            <p></a>Machine Learning Untuk Pemula, Analisis Data dengan Python, Dasar AI, Dasar Structured Query Language (SQL), 
+              Pemrograman dengan Python, Dasar Data Science. </p>
+           
+            <h5>Januari, 2025</h5>
           </div>
+
+          <!-- DQLab -->
           <div class="resume-item">
-            <h4>Memulai Pemrograman dengan Python</h4>
-            <h5>2024 - 2027</h5>
-            <p><em>Dicoding</em></p>
-            <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
+            <h4><a href="https://drive.google.com/drive/folders/1EWD_4G6zg5xx1Dbgkmw5pUwBzu1Cb-oK?usp=drive_link" target="_blank">DQLab</a></h4>
+            <p>Data Science Fundamentals </p>
+            <h5>Agustus, 2024</h5>
           </div>
+
+          <!-- MySkill -->
           <div class="resume-item">
-            <h4>Belajar Dasar Data Science</h4>
-            <h5>2024 - 2027</h5>
-            <p><em>Dicoding</em></p>
-            <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
+            <h4><a href="https://drive.google.com/drive/folders/1EWD_4G6zg5xx1Dbgkmw5pUwBzu1Cb-oK?usp=drive_link" target="_blank">MySkill</a></h4>
+            <p>Data Visualization</p>
+            <h5>Agustus, 2024</h5>
           </div>
-          
-          
-          
+
+          <!-- Dibimbing.id -->
+          <div class="resume-item">
+            <h4><a href="https://drive.google.com/drive/folders/1EWD_4G6zg5xx1Dbgkmw5pUwBzu1Cb-oK?usp=drive_link" target="_blank">Dibimbing.id</a></h4>
+            <p>Data Engineering </p>
+            <h5>Agustus, 2024</h5>
+          </div>
+
+          <h3 class="resume-title">Penghargaan</h3>
+
+          <div class="resume-item">
+            <h4><a href="https://drive.google.com/drive/folders/1T9RhTytRPgO9q9C3oVKSWYB4ym3rNJw-?usp=sharing" target="_blank">TIF EXHIBITION (Regional)</a></h4>
+            <ul>
+              <li>Juara 1 Aplikasi Terbaik (Tomat.In) TIF EXHIBITION (Regional)</li>
+              <li>Juara 1 Aplikasi Terbaik (KaRe) TIF EXHIBITION (Regional)</li>
+              <li>Juara 2 Poster Terbaik (KaRe) TIF EXHIBITION (Regional)</li>
+              <li>Juara 1 Aplikasi Terbaik (MbahSirr) TIF EXHIBITION (Regional)</li>
+              <li>Juara 1 Poster Terbaik (MbahSirr) TIF EXHIBITION (Regional) </li>
+            </ul>
+            <h5>2023-2025</h5>
+
+          </div>
+
+          <div class="resume-item">
+            <h4> Expo Produk IT (Regional)</h4>
+            <ul>
+              <li>Juara 3 Poster Terbaik (KaRe)</li>
+            </ul>
+            <h5>2024</h5>
+          </div>
+
         </div>
+
+
         <div class="col-lg-6">
           <h3 class="resume-title">Pengalaman</h3>
+
+          <!-- Tomat.In -->
+          <div class="resume-item">
+            <h4>Iot Pemilah Tomat Bersdasarkan Tingkat Kematangan - (Tomat.In) </h4>
+            <h5>Agustus - Desember 2024</h5>
+            <p>Politeknik Negeri Jember</p>
+            <p>
+            <ul>
+              <li>Berperan sebagai Mobile Developer</li>
+              <li>Menentukan dan menganalisis permasalahan yang ada serta kebutuhan pengguna dengan melakukan survey.</li>
+              <li>Merancang dan membuat desain antarmuka aplikasi seluler untuk memonitoring berdasarkan kebutuhan pengguna.</li>
+              <li>Mengimplementasikan front end dan back end dari Aplikasi Seluler Tomat.In yaitu memonitoring jumlah tomat 
+                perkategori.</li>
+              <li>Mengembangkan sistem IoT, termasuk menyambungkan dan mengonfigurasi sensor, perkabelan, serta integrasi perangkat keras dengan aplikasi.</li>
+            </ul>
+            </p>
+          </div>
+
+          <!-- PasarTaniKediri -->
+          <div class="resume-item">
+            <h4> MarketHub Produk Pertanian di Kab. Kediri (PasarTaniKediri)</h4>
+            <h5>Juni 2024</h5>
+            <p>Politeknik Negeri Jember</p>
+            <p>
+            <ul>
+              <li>Berperan sebagai Project Manager</li>
+              <li>Menentukan dan menganalisis permasalahan yang ada serta kebutuhan pengguna dengan melakukan survey.</li>
+              <li>Merancang dan membuat desain antarmuka website untuk memonitoring berdasarkan kebutuhan pengguna.</li>
+              <li>Berperan sebagai tester untuk melakukan pengujian aplikasi guna memastikan fungsionalitas dan user experience berjalan dengan baik.</li>
+            </ul>
+            </p>
+          </div>
+
+          <!-- KaRe (Kartoharjo Recycle) – Mengelola TPST Kartoharjo Nganjuk -->
+          <div class="resume-item">
+            <h4>Mengelola TPST Kartoharjo Nganjuk - KaRe (Kartoharjo Recycle)</h4>
+            <h5>Januari - Mei 2024</h5>
+            <p>Politeknik Negeri Jember</p>
+            <p>
+            <ul>
+              <li>Berperan sebagai Mobile Development </li>
+              <li>Menentukan dan menganalisis permasalahan yang ada serta kebutuhan pengguna dengan melakukan survey.</li>
+              <li>Merancang dan membuat desain antarmuka aplikasi seluler untuk memonitoring berdasarkan kebutuhan pengguna.</li>
+              <li>Mengimplementasikan front end dan back end dari Aplikasi Seluler KaRe yaitu mengelola pendataan seperti tabungan, 
+                anggota, kegiatan dan kunjungan</li>
+            </ul>
+            </p>
+          </div>
+
+          <!-- Unjuk  – Aplikasi Mobile dan Website Pendataan UMKM se-Kab. Nganjuk  -->
+          <div class="resume-item">
+            <h4>Aplikasi Mobile dan Website Pendataan UMKM se-Kab. Nganjuk - (Unjuk)</h4>
+            <h5>Agustus - Desember 2023</h5>
+            <p>Politeknik Negeri Jember</p>
+            <p>
+            <ul>
+              <li>Berperan sebagai Project Manager, Mobile Developer dan Sistem Analist </li>
+              <li>Menentukan permasalahan dan melakukan survey untuk menentukan solusi dan kebutuhan pengguna.</li>
+              <li>Merancang dan membuat desain antarmuka aplikasi seluler berdasarkan kebutuhan pengguna.</li>
+              <li>Mengimplementasikan front end dan back end dari aplikasi Unjuk yang memberikan solusi dengan mudahnya 
+                untuk pendataan UMKM di kab. Nganjuk. </li>
+            </ul>
+            </p>
+          </div>
+
+          <!-- MbahSirr – Aplikasi Kasir dan Laporan berbasis Desktop  -->
+          <div class="resume-item">
+            <h4>Aplikasi Kasir dan Laporan berbasis Desktop - (MbahSirr)</h4>
+            <h5>Desember 2022 - Mei 2023</h5>
+            <p>Politeknik Negeri Jember</p>
+            <p>
+            <ul>
+              <li>Berperan sebagai Project Manager, Programmer dan Sistem Analist</li>
+              <li>Menentukan permasalahan dan melakukan survey untuk menentukan solusi dan kebutuhan pengguna.</li>
+              <li> Merancang dan membuat desain antarmuka aplikasi desktop berdasarkan kebutuhan pengguna. </li>
+              <li> Mengimplementasikan front end dan back end dari aplikasi MbahSirr yang memberikan solusi dengan mudahnya untuk 
+                melayanai pembeli dan mencatat laporan </li>
+            </ul>
+            </p>
+          </div>
+
           <div class="resume-item">
             <h4>Magang di Trans Computer</h4>
             <h5>2021</h5>
@@ -418,6 +375,7 @@
             </ul>
             </p>
           </div>
+
           <div class="resume-item">
             <h4>Admin Facebook dan Whatsapp Olshop</h4>
             <h5>2022</h5>
@@ -431,33 +389,7 @@
             </ul>
             </p>
           </div>
-          <div class="resume-item">
-            <h4>Projek Aplikasi Kasir dan Laporan berbasis Desktop (MbahhSirr)</h4>
-            <h5>2023</h5>
-            <p><em>Politeknik Negeri Jember</em></p>
-            <p>
-            <ul>
-              <li>Sebagai Manajer Proyek dalam proyek pengembangan aplikasi</li>
-              <li>Sebagai Analis Sistem dalam proyek pengembangan aplikasi</li>
-              <li>Sebagai Programmer dalam proyek pengembangan aplikasi</li>
-  
-            </ul>
-            </p>
-          </div>
 
-          <div class="resume-item">
-            <h4>Projek Aplikasi Mobile dan Website pendataan UMKM se-kabupaten Nganjuk (unjuk)</h4>
-            <h5>2023</h5>
-            <p><em>Politeknik Negeri Jember</em></p>
-            <p>
-            <ul>
-              <li>Sebagai Manajer Proyek dalam proyek pengembangan aplikasi</li>
-              <li>Sebagai Analis Sistem dalam proyek pengembangan aplikasi</li>
-              <li>Sebagai Mobile Developer dalam proyek pengembangan aplikasi</li>
-  
-            </ul>
-            </p>
-          </div>
         </div>
       </div>
 
@@ -465,7 +397,8 @@
   </section><!-- End Resume Section -->
 
   <!-- ======= Services Section ======= -->
-  <section id="services" class="services">
+   
+  <!-- <section id="services" class="services">
     <div class="container">
 
       <div class="section-title">
@@ -477,7 +410,7 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div class="icon-box">
             <div class="icon"><i class="bx bi-journal-richtext"></i></div>
-            <h4><a href="assets/sertifikat/sertifikat_course_Data.pdf">Belajar Dasar Data Science</a></h4>
+            <h4><a href="https://drive.google.com/file/d/1FRaY-jnnNGFyuOpgKMeRE5Nm7mCOfCKY/view?usp=drive_link">Belajar Dasar Data Science</a></h4>
             <p>Dicoding</p>
           </div>
         </div>
@@ -485,7 +418,7 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="assets/sertifikat/sertifikat_course_Pyton.pdf">Memulai Pemrograman dengan Python</a></h4>
+            <h4><a href="https://drive.google.com/file/d/1URQleTmDJyaoq9xC_BCOKxkvYsn0jcRN/view?usp=drive_link">Memulai Pemrograman dengan Python</a></h4>
             <p>Dicoding</p>
           </div>
         </div>
@@ -493,17 +426,76 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-data"></i></div>
-            <h4><a href="assets/sertifikat/sertifikat_course_SQL.pdf">Belajar Dasar Structured Query Language (SQL)</a></h4>
+            <h4><a href="https://drive.google.com/file/d/1tp10grGbdAWKxWXtG31JPOayD3ReefSj/view?usp=drive_link">Belajar Dasar Structured Query Language (SQL)</a></h4>
             <p>Dicoding</p>
           </div>
         </div>
 
-        
-
       </div>
 
-    </div>
-  </section><!-- End Services Section -->
+      
+
+      <div class="row">
+        
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bi-journal-richtext"></i></div>
+              <h4><a href="https://drive.google.com/open?id=1BjReMI0bpXCzW557toAGWtxIyDO63Zax&usp=drive_copy">Belajar Machine Learning Untuk Pemula</a></h4>
+              <p>Dicoding</p>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="https://drive.google.com/file/d/1y_UR_5OiZHQPSuby8mL668fhClen9upC/view?usp=drive_link">Belajar Analisis Data dengan Python</a></h4>
+              <p>Dicoding</p>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-data"></i></div>
+              <h4 style="text-align: justify;"><a href="https://drive.google.com/file/d/1uCNGvfgOGZsAeG_ZISRDE1QHZG-PZ0C4/view?usp=drive_link">Belajar Dasar AI</a></h4>
+              <p>Dicoding</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-data"></i></div>
+              <h4><a href="https://drive.google.com/file/d/1P0n0u7LMMor-gf_seIrUxasR30x6OTI2/view?usp=sharing">Data Visualization</a></h4>
+              <p>MYSkill</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-data"></i></div>
+              <h4><a href="https://drive.google.com/file/d/1TJgnix6aD8fZvMjgi-h6PyhPnLQyAupC/view?usp=drive_link">Data Scientist Fundamental</a></h4>
+              <p>DQLab</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-data"></i></div>
+              <h4><a href="https://drive.google.com/file/d/1Gll3lHT_FyYWTg7bYqpUw8l9wKE-2gfq/view?usp=drive_link">Data Engineer</a></h4>
+              <p>Dibimbing</p>
+            </div>
+          </div>
+
+
+
+          
+      </div>
+
+    </div> -->
+  <!-- </section> -->
+  <!-- End Services Section -->
+
+  
 
   <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio">
@@ -514,158 +506,88 @@
         <p>Portofolio Saya</p>
       </div>
 
-      <!-- <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
-          </ul>
-        </div>
-      </div> -->
-
       <div class="row portfolio-container">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/mbahsirr.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>MbahhSirr</h4>
-              <p>Aplikasi Kasir dan Laporan Berbasis Desktop</p>
-              <div class="portfolio-links">
-                <a href="https://drive.google.com/drive/folders/197bee-Rd34HgzFpBJrkmWyJYwVVgezqP?usp=sharing" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
-            </div>            
-              </div>
+        <!-- Tomat.In -->
+        <div class="portfolio-item">
+          <div class="portfolio-item1">
+            <div class="portfolio-text1">
+                <h3>Tomat.In - Iot Pemilah Tomat Berdasarkan Tingkat Kematangan </h3>
+                <p style="text-align: justify;">Tomat In adalah aplikasi monitoring IoT yang dirancang untuk melakukan pemilahan tomat berdasarkan tingkat kematangannya. Aplikasi ini memungkinkan pengguna untuk memperoleh data berat tomat yang dikategorikan ke dalam tiga kelompok: matang, setengah matang, dan mentah. Dikembangkan menggunakan framework Flutter dan database MySQL, aplikasi ini terintegrasi dengan sistem IoT yang terdiri dari ESP32-CAM, Arduino, Load Cell, Servo, dan Konveyor. Sensor ESP32-CAM digunakan untuk mendeteksi kematangan tomat berdasarkan citra visual, sementara load cell mengukur berat setiap tomat sebelum diarahkan ke kategori yang sesuai menggunakan servo dan konveyor otomatis.</p>
+                
             </div>
-          </div>
-
-          
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/unjuk.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Unjuk</h4>
-                <p>Aplikasi Pendataan UMKM se-kabupaten nganjuk berbasis mobile dan website</p>
-                <div class="portfolio-links">
-                  <a href="https://drive.google.com/file/d/1MUXFwRfh2lfMSQt-HFyfg6k14KTd1nzJ/view?usp=drive_link" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>            
-                </div>
-              </div>
+            <div class="portfolio-image1">
+                <img src="assets/img/portfolio/tomat.png" alt="MbahhSirr">
             </div>
         </div>
 
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
+        <!-- PasarTani -->
+        <div class="portfolio-item">
+          <div class="portfolio-item1">
+            <div class="portfolio-text1">
+                <h3>PasarTaniKediri - MarketHub Produk Pertanian di Kab. Kediri</h3>
+                <p style="text-align: justify;">PasarTaniKediri adalah sebuah website marketplace yang dirancang untuk memasarkan produk pertanian di Kabupaten Kediri. Platform ini membantu petani dan kelompok tani dalam menjual produk mereka dengan lebih luas dan mudah dijangkau oleh pembeli. Melalui website ini, penjual dan pembeli dapat terhubung secara langsung menggunakan tautan WhatsApp dan lokasi di Google Maps yang diunggah oleh pengguna. Hal ini memungkinkan transaksi yang lebih cepat dan transparan tanpa perantara. Website ini dikembangkan menggunakan framework Laravel dan didukung oleh database MySQL.
+                </p>
+                
             </div>
-          </div>
+            <div class="portfolio-image1">
+                <img src="assets/img/portfolio/Pasartani.png" alt="MbahhSirr">
+            </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
+        <!-- Kare -->
+        <div class="portfolio-item">
+          <div class="portfolio-item1">
+            <div class="portfolio-text1">
+                <h3>KaRe (Kartoharjo Recycle) - Mengelola TPST Kartoharjo Nganjuk</h3>
+                <p style="text-align: justify;">Kartoharjo Recycle (KaRe) adalah aplikasi berbasis mobile dan website yang dirancang untuk mengelola Tempat Pengolahan Sampah Terpadu (TPST) di Kartoharjo, Nganjuk. Aplikasi ini bertujuan untuk mempermudah pengelolaan tabungan pelanggan serta layanan TPST lainnya. Pada aplikasi mobile, admin TPST dapat menginput tabungan pelanggan secara langsung, sementara website digunakan untuk berbagai layanan seperti pemantauan tabungan, permintaan kunjungan, dan pengelolaan sampah. Aplikasi mobile dikembangkan menggunakan framework Flutter, sedangkan website dibangun dengan Laravel</p>
+                
             </div>
-          </div>
+            <div class="portfolio-image1">
+                <img src="assets/img/portfolio/kare.png" alt="MbahhSirr">
+            </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
+        <!-- Unjuk -->
+        <div class="portfolio-item">
+          <div class="portfolio-item1">
+            <div class="portfolio-text1">
+                <h3>Unjuk - Aplikasi Mobile dan Website Pendataan UMKM se-Kab. Nganjuk </h3>
+                <p style="text-align: justify;">Unjuk adalah aplikasi market hub yang dirancang untuk mendukung UMKM di Kabupaten Nganjuk dalam memasarkan produk mereka. Aplikasi ini tersedia dalam dua platform, yaitu mobile dan website, dengan fungsi yang saling terintegrasi. Pada aplikasi mobile, pengguna UMKM dapat mengunggah data produk mereka secara langsung, sehingga memudahkan proses pemasaran. Sementara itu, website digunakan untuk menampilkan produk yang telah diunggah serta berfungsi sebagai platform monitoring bagi admin. Aplikasi mobile dikembangkan menggunakan Android Studio, sedangkan untuk pengelolaan data, aplikasi ini menggunakan database MySQL</p>
+                
             </div>
-          </div>
+            <div class="portfolio-image1">
+                <img src="assets/img/portfolio/unjuk2.png" alt="MbahhSirr">
+            </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
+        <!-- Mbahsirr -->
+        <div class="portfolio-item">
+          <div class="portfolio-item1">
+            <div class="portfolio-text1">
+                <h3>MbahSirr - Aplikasi Kasir dan Laporan berbasis Desktop </h3>
+                <p style="text-align: justify;">Mbahsirr adalah aplikasi berbasis desktop yang dirancang untuk mendukung operasional kasir sekaligus pembuatan laporan keuangan. Aplikasi ini memberikan kemudahan dalam pencatatan transaksi, manajemen penjualan, serta penyusunan laporan secara sistematis. Dikembangkan menggunakan NetBeans, Mbahsirr memanfaatkan database MySQL untuk menyimpan dan mengelola data dengan aman serta efisien. Dengan fitur yang terintegrasi, aplikasi ini membantu pengguna dalam mengelola transaksi secara lebih cepat dan akurat.</p>
+                
             </div>
-          </div>
-        </div> -->
+            <div class="portfolio-image1">
+                <img src="assets/img/portfolio/Mbahsir.png" alt="MbahhSirr">
+            </div>
+        </div>
+
+        </div>
+
+
+        
+
+
 
       </div>
 
@@ -750,11 +672,6 @@
   </section><!-- End Contact Section -->
 
   <div class="credits">
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-    <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
   </div>
 
   <!-- Vendor JS Files -->
